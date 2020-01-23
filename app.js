@@ -138,7 +138,7 @@ function createHTML(){
         <div class="card">
             <div class="card-header bg-primary text-white">
                 <h3>${team.engineers[i].getName()}</h3>
-                <h5>Engineer</h5>
+                <h5>${team.engineers[i].getRole()}</h5>
             </div>
             <div class="card-body">
                 <ul class="list-group">
@@ -156,7 +156,7 @@ function createHTML(){
         <div class="card">
             <div class="card-header bg-primary text-white">
                 <h3>${team.interns[i].getName()}</h3>
-                <h5>Engineer</h5>
+                <h5>${team.interns[i].getRole()}</h5>
             </div>
             <div class="card-body">
                 <ul class="list-group">
@@ -173,7 +173,7 @@ function createHTML(){
         <div class="card">
             <div class="card-header bg-primary text-white">
                 <h3>${team.managers[i].getName()}</h3>
-                <h5>Engineer</h5>
+                <h5>${team.managers[i].getRole()}</h5>
             </div>
             <div class="card-body">
                 <ul class="list-group">
